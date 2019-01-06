@@ -1,0 +1,15 @@
+<div align="center">
+    <div class="pagination">
+      <a (click)="onClickPrev()">
+          &laquo;
+      </a>
+      <a *ngFor="let event_id of event_ids" 
+        routerLink="/events/{{event_id}}"
+        routerLinkActive="active">
+        {{event_id}}
+      </a>
+      <a (click)="onClickNext()">
+        &raquo;
+      </a>
+  </div>
+</div>

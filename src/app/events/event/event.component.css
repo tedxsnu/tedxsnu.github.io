@@ -1,0 +1,72 @@
+.event {
+    padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	line-height: 1.7;
+}
+
+.event h1 {
+    color: #e62b1e;
+}
+
+.event p {
+    font-size: 16px;
+}
+
+.thumbnail {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+}
+
+.thumbnail img {
+    padding-bottom: 10px;
+}
+
+.thumbnail p {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+button {
+    display: none;
+    color: black;
+    background-color: white;
+    border-color: black;
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color:#f7f7f7;
+    border-color: black;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .thumbnail {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+    .showTalks.responsive {
+        display: block;
+    }
+
+    .showTalks {
+        display: none;
+    }
+
+    button {
+        display: block;
+    }
+}
+

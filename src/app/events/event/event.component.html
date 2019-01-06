@@ -1,0 +1,21 @@
+<div class="event">
+    <h1>Events</h1>
+    <hr>
+    <h2>{{ event.name }}</h2>
+    <p>{{ event.description }}</p>
+    <br>
+    <div align="center">
+        <button (click)="onClickShow()" class="btn">
+            View Talks
+        </button>
+    </div>
+    <div class="showTalks" [ngClass] = "{responsive : show}">
+        <div class="thumbnail" *ngFor = "let thumbnail of event.thumbnails">
+            <a href="{{ thumbnail.videoLink }}">
+                <img src="{{ thumbnail.imageLink }}" width="auto" alt="">
+            </a>
+            <p><strong>{{ thumbnail.name }}</strong></p>
+            <p>{{ thumbnail.title }}</p>
+        </div>
+    </div>     
+</div>

@@ -1,0 +1,22 @@
+.partners {
+    padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	line-height: 1.7;
+}
+
+
+.partners h1 {
+	color: #e62b1e;
+}
+
+@media (max-width: 767px) {
+    img {
+        margin-top: 30px;
+    }
+}
+

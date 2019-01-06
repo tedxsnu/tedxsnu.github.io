@@ -1,0 +1,16 @@
+.paragraph {
+	margin-top: 400px;
+	margin-bottom: 400px;
+	display: inline-block;
+	width: 100%;
+}
+
+.paragraph h1 {
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.paragraph h1 strong {
+	color: red;
+}

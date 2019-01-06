@@ -1,0 +1,58 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a routerLink="/" class="navbar-brand" [ngClass]="{collapsed: !openHamburger }"><img src="images/TEDxSNU_logo.png" alt=""></a>
+          <!-- <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" 
+            aria-expanded="true" 
+            aria-label="Toggle navigation"
+            (click)="onToggleHamburger()" >
+                <img src="images/hamburger.png" alt="">
+          </button> -->
+          <a 
+            class="navbar-toggler" 
+            (click)="onToggleHamburger()" >
+                <img src="images/hamburger.png" alt="">
+          </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" [ngClass]="{in: openHamburger }" >
+          <!-- or just navbar-default -->
+          <ul class="nav navbar-nav navbar-right">
+              <li>
+                  <a (click)="onToggleHamburger()" 
+                  routerLink="/" 
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{exact: true}">
+                  About</a>
+                </li>
+              <li>
+                  <a (click)="onToggleHamburger()"
+                  routerLink="/events/1" 
+                  routerLinkActive="active">
+                  Events</a>
+                </li>
+              <li>
+                  <a (click)="onToggleHamburger()"
+                  routerLink="/partners" 
+                  routerLinkActive="active">
+                  Partnerships</a>
+                </li>
+              <li>
+                  <a (click)="onToggleHamburger()"
+                  href='https://www.flickr.com'>
+                  Gallery</a>
+                </li>
+              <li>
+                  <a (click)="onToggleHamburger()"
+                  routerLink="/tickets"
+                  routerLinkActive="active">
+                  Tickets</a>
+                </li>
+          </ul>
+      </div>
+  </div>
+</nav>
