@@ -48,7 +48,7 @@ module.exports = "/*!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyrig
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n\tbackground-color: white;\n\tmargin-top: 0px;\n\tmargin-right: 0px;\n\tmargin-bottom: 0px;\n\tmargin-left: 0px;\n\tfont-style: normal;\n\tfont-weight: 200;\n}"
+module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n\tbackground-color: white;\n\tmargin-top: 0px;\n\tmargin-right: 0px;\n\tmargin-bottom: 0px;\n\tmargin-left: 0px;\n\tfont-style: normal;\n\tfont-weight: 400;\n}"
 
 /***/ }),
 
