@@ -439,9 +439,9 @@ var EventsComponent = /** @class */ (function () {
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/M0dz8lztdV4/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/ii76P1ftD1o/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/QwBHz8y99UQ/mqdefault.jpg'),
-                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'past events/of showa.png'),
-                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'past events/stop persuading.png'),
-                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'past events/innovating.png')
+                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/QwBHz8y99UQ/mqdefault.jpg'),
+                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/QwBHz8y99UQ/mqdefault.jpg'),
+                new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', 'https://img.youtube.com/vi/QwBHz8y99UQ/mqdefault.jpg')
             ]),
             new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('11th TEDxSNU: 미치다', '다함께 미쳐봅시다.', [
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Soojeong Lee', 'What black', '#', '#'),
@@ -1033,7 +1033,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu.github.io/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu_web/src/main.ts */"./src/main.ts");
 
 
 /***/ })
