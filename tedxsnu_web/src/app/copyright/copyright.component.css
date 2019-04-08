@@ -1,0 +1,22 @@
+.copyright {
+	/*text-align: center;*/
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	background-color: #000000;
+	color: #c6c6c6;
+	/*text-transform: uppercase;*/
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+.copyright a {
+	padding-right: 10px;
+	opacity: 0.7;
+}
+
+.copyright a:hover {
+	opacity: 1;
+}

@@ -1,0 +1,14 @@
+<div align="center">
+    <img src="images/banner1.png" width="90%" alt=""/>
+</div>
+
+<div class="partners">
+    <h1>Partners</h1>
+    <hr>
+    <div *ngFor="let sponsor of sponsors">
+        <h2>{{sponsor.title}}</h2>
+        <div align="center">
+            <img src="{{sponsor.path}}" alt="" width="100%">
+        </div>
+    </div>
+</div>

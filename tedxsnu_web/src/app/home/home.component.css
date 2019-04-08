@@ -1,0 +1,42 @@
+
+
+.about {
+    padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	padding-bottom: 150px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 1.7;
+}
+
+.about h2 {
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.about h2 strong {
+    color: #e62b1e;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+	.about p {
+		font-size: 16px;
+	}
+
+	.about h2 {
+		font-size: 30px;
+	}
+}
