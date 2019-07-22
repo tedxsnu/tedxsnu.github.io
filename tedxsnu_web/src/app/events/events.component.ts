@@ -17,9 +17,17 @@ export class EventsComponent implements OnInit, OnDestroy {
 
   events : Event[] = [
     new Event(
+      'TEDxSNU 2019 Summer Event: WONDER',
+      `
+      놀라움 그 자체이자 자신과 세상을 바꿔나가는 우리 안의 힘인 'WONDER'에 대한 아이디어를 나누었습니다.
+      `,
+      [
+      ]
+    ),
+    new Event(
       'TEDxSNU 2018 Fall Event: 흑 <보이지 않는 것, 보지 않았던 것>',
       `
-      '우리 삶의 일부분이지만 익숙하지 않고 쉽게 이야기되지 않는 ‘흑’에 대한 아이디어들을 나누었습니다.'
+      우리 삶의 일부분이지만 익숙하지 않고 쉽게 이야기되지 않는 ‘흑’에 대한 아이디어들을 나누었습니다.
       `,
       [
         new Thumbnail(
@@ -57,7 +65,7 @@ export class EventsComponent implements OnInit, OnDestroy {
     new Event(
       '제 11회 TEDxSNU: 美치다',
       `
-      '美치다'를 컨셉으로 하여 '누구나 미친 잠재력을 갖고 있다'는 것에 주목하고자 한다. '
+      美치다'를 컨셉으로 하여 '누구나 미친 잠재력을 갖고 있다'는 것에 주목하고자 한다.
       `,
       [
         new Thumbnail(

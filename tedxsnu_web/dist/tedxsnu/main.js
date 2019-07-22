@@ -239,7 +239,7 @@ module.exports = ".copyright {\n\t/*text-align: center;*/\n\tpadding-top: 20px;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"copyright\">\n  <a href=\"https://www.facebook.com/TEDxSNU/\"><img src=\"images/facebook.png\" width=\"25\" alt=\"\"/></a>\n  <a href=\"https://www.instagram.com/tedxsnu/\"><img src=\"images/insagram.png\" width=\"25\" alt=\"\"/></a>\n  <p></p>\n  <p>&copy;2018 All Rights Reserved.</p>\n  <p>2018 Fall TEDxSNU Director : Jewon Yang</p>\n  <p>Mail : tedxsnu@gmail.com</p>\n</div>"
+module.exports = "<div class=\"copyright\">\n  <a href=\"https://www.facebook.com/TEDxSNU/\"><img src=\"images/facebook.png\" width=\"25\" alt=\"\"/></a>\n  <a href=\"https://www.instagram.com/tedxsnu/\"><img src=\"images/insagram.png\" width=\"25\" alt=\"\"/></a>\n  <p></p>\n  <p>&copy;2019 All Rights Reserved.</p>\n  <p>2019 Summer TEDxSNU Director : Dahye Cho</p>\n  <p>Mail : tedxsnu@gmail.com</p>\n</div>\n"
 
 /***/ }),
 
@@ -434,14 +434,15 @@ var EventsComponent = /** @class */ (function () {
     function EventsComponent(route) {
         this.route = route;
         this.events = [
-            new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('TEDxSNU 2018 Fall Event: 흑 <보이지 않는 것, 보지 않았던 것>', "\n      '\uC6B0\uB9AC \uC0B6\uC758 \uC77C\uBD80\uBD84\uC774\uC9C0\uB9CC \uC775\uC219\uD558\uC9C0 \uC54A\uACE0 \uC27D\uAC8C \uC774\uC57C\uAE30\uB418\uC9C0 \uC54A\uB294 \u2018\uD751\u2019\uC5D0 \uB300\uD55C \uC544\uC774\uB514\uC5B4\uB4E4\uC744 \uB098\uB204\uC5C8\uC2B5\uB2C8\uB2E4.'\n      ", [
+            new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('TEDxSNU 2019 Summer Event: WONDER', "\n      \uB180\uB77C\uC6C0 \uADF8 \uC790\uCCB4\uC774\uC790 \uC790\uC2E0\uACFC \uC138\uC0C1\uC744 \uBC14\uAFD4\uB098\uAC00\uB294 \uC6B0\uB9AC \uC548\uC758 \uD798\uC778 'WONDER'\uC5D0 \uB300\uD55C \uC544\uC774\uB514\uC5B4\uB97C \uB098\uB204\uC5C8\uC2B5\uB2C8\uB2E4.\n      ", []),
+            new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('TEDxSNU 2018 Fall Event: 흑 <보이지 않는 것, 보지 않았던 것>', "\n      \uC6B0\uB9AC \uC0B6\uC758 \uC77C\uBD80\uBD84\uC774\uC9C0\uB9CC \uC775\uC219\uD558\uC9C0 \uC54A\uACE0 \uC27D\uAC8C \uC774\uC57C\uAE30\uB418\uC9C0 \uC54A\uB294 \u2018\uD751\u2019\uC5D0 \uB300\uD55C \uC544\uC774\uB514\uC5B4\uB4E4\uC744 \uB098\uB204\uC5C8\uC2B5\uB2C8\uB2E4.\n      ", [
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Song Young Hee', '다름의 재발견', 'https://www.youtube.com/watch?v=NP6R1glCUhg', 'https://img.youtube.com/vi/NP6R1glCUhg/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Russel. H. Park', '물 속에서 흑을 경험하다', 'https://www.youtube.com/watch?v=r2knFEIKHF8', 'https://img.youtube.com/vi/r2knFEIKHF8/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Christopher Shin Packard', 'On the Blacklist', 'https://www.youtube.com/watch?v=ONwL8fNO6uk', 'https://img.youtube.com/vi/ONwL8fNO6uk/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Jung Yang Soo', '죽음이 던지는 질문', 'https://www.youtube.com/watch?v=kkML8vWMzeg', 'https://img.youtube.com/vi/kkML8vWMzeg/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Dong I-hyang', '연극의 어둠, 암전', 'https://www.youtube.com/watch?v=ShascOp3UT4', 'https://img.youtube.com/vi/ShascOp3UT4/mqdefault.jpg'),
             ]),
-            new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('제 11회 TEDxSNU: 美치다', "\n      '\u7F8E\uCE58\uB2E4'\uB97C \uCEE8\uC149\uC73C\uB85C \uD558\uC5EC '\uB204\uAD6C\uB098 \uBBF8\uCE5C \uC7A0\uC7AC\uB825\uC744 \uAC16\uACE0 \uC788\uB2E4'\uB294 \uAC83\uC5D0 \uC8FC\uBAA9\uD558\uACE0\uC790 \uD55C\uB2E4. '\n      ", [
+            new _event_model__WEBPACK_IMPORTED_MODULE_1__["Event"]('제 11회 TEDxSNU: 美치다', "\n      \u7F8E\uCE58\uB2E4'\uB97C \uCEE8\uC149\uC73C\uB85C \uD558\uC5EC '\uB204\uAD6C\uB098 \uBBF8\uCE5C \uC7A0\uC7AC\uB825\uC744 \uAC16\uACE0 \uC788\uB2E4'\uB294 \uAC83\uC5D0 \uC8FC\uBAA9\uD558\uACE0\uC790 \uD55C\uB2E4.\n      ", [
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Kim Young Uk', 'Your mealworm pasta is ready to be served!', 'https://www.youtube.com/watch?v=6rssJgvTREk', 'https://img.youtube.com/vi/6rssJgvTREk/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Horan', 'The qualification for sorrow', 'https://www.youtube.com/watch?v=Rymz4gYYANA', 'https://img.youtube.com/vi/Rymz4gYYANA/mqdefault.jpg'),
                 new _thumbnail_model__WEBPACK_IMPORTED_MODULE_2__["Thumbnail"]('Peter Park', 'Angel wings swing! ', 'https://www.youtube.com/watch?v=3f4mSvutuV8', 'https://img.youtube.com/vi/3f4mSvutuV8/mqdefault.jpg'),
@@ -716,7 +717,7 @@ module.exports = ".navbar-brand img {\n    width: auto;\n    height: 70px;\n}\n\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\">\n  <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n          <a routerLink=\"/\" class=\"navbar-brand\" [ngClass]=\"{collapsed: !openHamburger }\"><img src=\"images/TEDxSNU_logo.png\" alt=\"\"></a>\n          <!-- <button \n            class=\"navbar-toggler\" \n            type=\"button\" \n            data-toggle=\"collapse\" \n            data-target=\"#navbarNavDropdown\" \n            aria-controls=\"navbarNavDropdown\" \n            aria-expanded=\"true\" \n            aria-label=\"Toggle navigation\"\n            (click)=\"onToggleHamburger()\" >\n                <img src=\"images/hamburger.png\" alt=\"\">\n          </button> -->\n          <a \n            class=\"navbar-toggler\" \n            (click)=\"onToggleHamburger()\" >\n                <img src=\"images/hamburger.png\" alt=\"\">\n          </a>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\" [ngClass]=\"{in: openHamburger }\" >\n          <!-- or just navbar-default -->\n          <ul class=\"nav navbar-nav navbar-right\">\n              <li>\n                  <a (click)=\"onToggleHamburger()\" \n                  routerLink=\"/home\" \n                  routerLinkActive=\"active\">\n                  About</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/events/1\" \n                  routerLinkActive=\"active\">\n                  Events</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/partners\" \n                  routerLinkActive=\"active\">\n                  Partnerships</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  href='https://www.flickr.com'>\n                  Gallery</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/tickets\"\n                  routerLinkActive=\"active\">\n                  News</a>\n                </li>\n          </ul>\n      </div>\n  </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\">\n  <div class=\"container-fluid\">\n      <div class=\"navbar-header\">\n          <a routerLink=\"/\" class=\"navbar-brand\" [ngClass]=\"{collapsed: !openHamburger }\"><img src=\"images/TEDxSNU_logo.png\" alt=\"\"></a>\n          <!-- <button \n            class=\"navbar-toggler\" \n            type=\"button\" \n            data-toggle=\"collapse\" \n            data-target=\"#navbarNavDropdown\" \n            aria-controls=\"navbarNavDropdown\" \n            aria-expanded=\"true\" \n            aria-label=\"Toggle navigation\"\n            (click)=\"onToggleHamburger()\" >\n                <img src=\"images/hamburger.png\" alt=\"\">\n          </button> -->\n          <a \n            class=\"navbar-toggler\" \n            (click)=\"onToggleHamburger()\" >\n                <img src=\"images/hamburger.png\" alt=\"\">\n          </a>\n      </div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\" [ngClass]=\"{in: openHamburger }\" >\n          <!-- or just navbar-default -->\n          <ul class=\"nav navbar-nav navbar-right\">\n              <li>\n                  <a (click)=\"onToggleHamburger()\" \n                  routerLink=\"/home\" \n                  routerLinkActive=\"active\">\n                  About</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/events/1\" \n                  routerLinkActive=\"active\">\n                  Events</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/partners\" \n                  routerLinkActive=\"active\">\n                  Partnerships</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  href='https://flic.kr/s/aHsmF214ZB'>\n                  Gallery</a>\n                </li>\n              <li>\n                  <a (click)=\"onToggleHamburger()\"\n                  routerLink=\"/tickets\"\n                  routerLinkActive=\"active\">\n                  News</a>\n                </li>\n          </ul>\n      </div>\n  </div>\n</nav>"
 
 /***/ }),
 
@@ -912,7 +913,7 @@ module.exports = ".partners {\n    padding-left: 15%;\n\tpadding-right: 15%;\n\t
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div align=\"center\">\n    <img src=\"images/banner1.png\" width=\"90%\" alt=\"\"/>\n</div>\n\n<div class=\"partners\">\n    <h1>Partners</h1>\n    <hr>\n    <div *ngFor=\"let sponsor of sponsors\">\n        <h2>{{sponsor.title}}</h2>\n        <div align=\"center\">\n            <img src=\"{{sponsor.path}}\" alt=\"\" width=\"100%\">\n        </div>\n    </div>\n</div>"
+module.exports = "<div align=\"center\">\n    <img src=\"images/banner1.png\" width=\"90%\" alt=\"\"/>\n</div>\n\n<div class=\"partners\">\n    <h1>Partners</h1>\n    <hr>\n    <div *ngFor=\"let sponsor of sponsors\">\n        <h2>{{sponsor.title}}</h2>\n        <br>\n        <div align=\"center\">\n            <img src=\"{{sponsor.path}}\" alt=\"\" width=\"100%\">\n        </div>\n        <hr>\n        <br>\n        <br>\n\n    </div>\n</div>"
 
 /***/ }),
 
@@ -940,7 +941,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var PartnersComponent = /** @class */ (function () {
     function PartnersComponent() {
         this.sponsors = [
-            { title: "TEDxSNU 2018 Fall Event", path: "images/2018_fall_sponsor.jpeg" }
+            { title: "TEDxSNU 2018 Fall Event", path: "images/2018_fall_sponsor.jpeg" },
+            { title: "TEDxSNU 2019 SUMMER Event", path: "images/tedxsnu2019summer.png" }
         ];
     }
     PartnersComponent.prototype.ngOnInit = function () {
@@ -1083,7 +1085,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu_web/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu.github.io/tedxsnu_web/src/main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -580,8 +580,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu_web/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu_web/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu.github.io/tedxsnu_web/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+module.exports = __webpack_require__(/*! /Users/leesoojeong/Desktop/tedxsnu.github.io/tedxsnu_web/src/styles.css */"./src/styles.css");
 
 
 /***/ })
