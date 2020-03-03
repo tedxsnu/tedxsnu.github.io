@@ -239,7 +239,7 @@ module.exports = ".copyright {\n\t/*text-align: center;*/\n\tpadding-top: 20px;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"copyright\">\n  <a href=\"https://www.facebook.com/TEDxSNU/\"><img src=\"images/facebook.png\" width=\"25\" alt=\"\"/></a>\n  <a href=\"https://www.instagram.com/tedxsnu/\"><img src=\"images/insagram.png\" width=\"25\" alt=\"\"/></a>\n  <p></p>\n  <p>&copy;2019 All Rights Reserved.</p>\n  <p>2020 Winter TEDxSNU Director : Haejeong Kim</p>\n  <p>Mail : tedxsnu@gmail.com</p>\n</div>\n"
+module.exports = "<div class=\"copyright\">\n  <a href=\"https://www.facebook.com/TEDxSNU/\"><img src=\"images/facebook.png\" width=\"25\" alt=\"\"/></a>\n  <a href=\"https://www.instagram.com/tedxsnu/\"><img src=\"images/insagram.png\" width=\"25\" alt=\"\"/></a>\n  <p></p>\n  <p>&copy;2019 All Rights Reserved.</p>\n  <p>2020 Summer TEDxSNU Director : Sangheon Kim</p>\n  <p>Mail : tedxsnu@gmail.com</p>\n</div>\n"
 
 /***/ }),
 
